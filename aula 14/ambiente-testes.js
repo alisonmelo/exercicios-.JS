@@ -1,9 +1,18 @@
+/// EXEMPLOD DE REPETIÇÃO 
+console.log(`Começando..`)
 for (var calculo = 1; calculo <= 10; calculo++) {
     console.log(`passo ${contador}`)
 }
+console.log(`Acabou ;D`)
 
 
+////UTILIZANDO
 
+/* for (var calculo = 1; calculo <= 10; calculo++) {
+    console.log(`passo ${contador}`)
+}
+
+ */
 
 /* let contador = 1
 do {

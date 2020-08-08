@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+function pares(x, y) {
+ // código aqui
+}
+pares(32, 321); -->
+    <script>
+        function pares(x, y) {
+            // por while
+            while (x <= y) {
+
+                let numeroPar = x % 2;
+
+                if (numeroPar == 0) {
+                    let resultado = x;
+                    console.log(resultado)
+                }
+                x++;
+            }
+
+            /*   // por for
+              for (x; x <= y; x++) {
+
+                  if (x % 2 == 0) {
+                      console.log(x)
+                  }
+              } */
+        }
+        pares(32, 321)
+    </script>
+</body>
+
+</html>
